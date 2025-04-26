@@ -280,6 +280,7 @@ footer p {
 @media (max-width: 1100px) {
     .hero-d {
         flex-direction: column-reverse;
+        text-align: center;
     }
 
     .card-d {
