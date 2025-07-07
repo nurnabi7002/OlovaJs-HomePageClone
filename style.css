@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    
-  }
-  
-    @font-face {
-         font-family: 'Poppins';
-         src: url('Poppins-Medium.ttf') format('truetype');
-     }
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.ttf') format('truetype');
+}
 
 body {
     background: black;
@@ -52,23 +52,25 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 8px;
-border-radius: 9px;
-width: 200px;
-transition: 1s;    
+    border-radius: 9px;
+    width: 200px;
+    transition: 0.4s;
+     margin-top: 10px;
 }
 
 .searchbar input {
-background-color: transparent;
-outline: none;
-border: none;
-color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
 
 }
 
 
 .searchbar:hover {
-    border: 1px solid white;
-    transition: 1s;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+    transition: 0.4s;
 }
 
 
@@ -81,11 +83,12 @@ color: white;
 }
 
 
-select, option {
-    outline:  none;
+select,
+option {
+    outline: none;
     border: none;
-    background-color:  transparent;
-    
+    background-color: transparent;
+
 }
 
 select {
@@ -116,43 +119,43 @@ option {
     flex-direction: column;
     justify-content: space-around;
     transform: scale(-0.8);
-  }
-  
-  .nl {
+}
+
+.nl {
     background: white;
     transition: 0.2s;
-  }
-  
-  .m1 {
+}
+
+.m1 {
     height: 3px;
     width: 17px;
-  }
-  
-  .m2 {
-   height: 3px;
+}
+
+.m2 {
+    height: 3px;
     width: 10px;
-  }
-  
-  .m3 {
-   width: 25px;
-   height: 3px;
-  }
-  
-  .menu:hover {
+}
+
+.m3 {
+    width: 25px;
+    height: 3px;
+}
+
+.menu:hover {
     .m3 {
-      width: 17px;
+        width: 17px;
     }
-    
+
     .m2 {
-     transition: 0.2s;
-     width: 25px;
+        transition: 0.2s;
+        width: 25px;
     }
-    
+
     .m1 {
-      transition: 0.2s;
-      width: 10px;
+        transition: 0.2s;
+        width: 10px;
     }
-  }
+}
 
 
 /* Hero Section */
@@ -185,8 +188,9 @@ option {
 }
 
 
-.hero-l h1, button{
-   margin-top: 20px;
+.hero-l h1,
+button {
+    margin-top: 20px;
 
 }
 
@@ -200,12 +204,12 @@ option {
 
 
 .hb1 {
-   background-color: rgb(101, 101, 255); 
+    background-color: rgb(101, 101, 255);
 }
 
 .hb2 {
     background-color: rgb(40, 35, 35);
-}  
+}
 
 
 .himg {
@@ -240,7 +244,8 @@ option {
     border-radius: 10px;
 }
 
-.card h1, p {
+.card h1,
+p {
     margin-top: 7px;
 }
 
@@ -272,7 +277,7 @@ footer p {
     .hero-d {
         transform: scale(0.75);
     }
-    
+
 }
 
 
@@ -316,7 +321,7 @@ footer p {
     .nd2 {
         display: none;
     }
-    
+
 }
 
 
