@@ -31,7 +31,7 @@ A clean and responsive clone of the official **Olova.js** homepage, built using 
 ---
 
 ## 📁 Folder Structure
-
+```
 
 OlovaJs-HomePageClone/
 │
@@ -42,7 +42,7 @@ OlovaJs-HomePageClone/
 ├── search-icon.jpg
 └── Poppins-Medium.ttf
 
-
+```
 
 
 ---
